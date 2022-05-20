@@ -41,6 +41,7 @@ declare namespace Chance {
         integer(opts?: Partial<IntegerOptions>): number;
         letter(opts?: Options): string;
         natural(opts?: Options): number;
+        random(): number;
         string(opts?: Partial<StringOptions>): string;
         template(template: string): string;
 
